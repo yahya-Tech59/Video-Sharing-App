@@ -1,4 +1,5 @@
 import React from "react";
+
 import { Paper, Typography } from "@mui/material";
 
 export const VideoDetail = ({
@@ -18,7 +19,7 @@ export const VideoDetail = ({
           frameBorder="0"
           height="100%"
           width="100%"
-          title="video Player"
+          title="Video Player"
           src={videoSrc}
         />
       </Paper>
